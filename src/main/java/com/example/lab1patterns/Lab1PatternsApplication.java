@@ -20,7 +20,7 @@ public class Lab1PatternsApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter basic number:  ");
+        System.out.println("Enter basic number: SOME CHANGES IN THE CODE  ");
         int userNum = scanner.nextInt();
 
         System.out.println("Enter power: ");
