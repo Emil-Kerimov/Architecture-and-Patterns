@@ -20,7 +20,7 @@ public class Lab1PatternsApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter basic number: SOME CHANGES IN THE CODE  ");
+        System.out.println("Enter gitnumber: SOME CHANGES IN THE CODE Creating merge conflict in tis line  ");
         int userNum = scanner.nextInt();
 
         System.out.println("Enter power: ");
