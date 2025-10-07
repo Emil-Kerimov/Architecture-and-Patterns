@@ -1,17 +1,16 @@
 package com.example.lab1patterns;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.Scanner;
 
 @SpringBootApplication
+@RequiredArgsConstructor
 public class Lab1PatternsApplication implements CommandLineRunner {
     private final RaisePowerAction powerAction;
 
-    public Lab1PatternsApplication(RaisePowerAction powerAction) {
-        this.powerAction = powerAction;
-    }
 
     public static void main(String[] args) {
         SpringApplication.run(Lab1PatternsApplication.class, args);
